@@ -1,0 +1,69 @@
+* {box-sizing: border-box;
+margin: 0;
+padding: 0;}
+
+body {display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    background-color: rgb(27, 26, 26);
+}
+
+.wrapper {
+    background-image: linear-gradient(135deg, #023526 0%, #0b6b36 100%);
+    width: 600px;
+    height: 250px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(82, 80, 80); 
+}
+
+.wrapper h2 {
+    padding: 10px;
+    color:rgb(24, 23, 23);
+    text-transform: uppercase;
+}
+
+.main-panel {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+
+.left-panel {display: flex;
+    flex-direction: column;}
+.left-panel input {
+    height: 80px;
+    width: 80px;
+    font-size: 60px;
+    background: none;
+    border: none;
+    color:rgb(24, 23, 23);
+}
+
+.left-panel select, .right-panel select {
+    height: 40px;
+    font-size: 25px;
+    color:rgb(24, 23, 23);
+    background: none;
+    border: none;
+}
+
+.left-panel input:focus, select:focus {
+    outline:none;
+    color: grey;
+}
+
+.score {height: 80px;
+width: 80px;
+font-size: 60px;
+color:rgb(24, 23, 23);
+}
+
+.actually {padding: 10px;
+font-size: 20px;
+text-transform: uppercase;}
