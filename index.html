@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ExchangeCurrencies</title>
+    <title>Currency Converter</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,23 +14,23 @@
 
 <body>
     <div class="wrapper">
-        <h2>exchange currencies</h2>
+        <h2>currency converter</h2>
         <div class="main-panel">
             <div class="left-panel">
                 <input type="number" class="left-input" value="1">
                 <select id="currency-one">
-                    <option value="1" selected>PLN</option>
-                <option value="2">EUR</option>
+                    <option value="1">PLN</option>
+                <option value="2" selected>EUR</option>
                 <option value="3">CHF</option>
                 <option value="4">USD</option>
                 <option value="5">GBP</option>
                 </select>
             </div>
             <div class="right-panel">
-                <p class="score">10</p>
+                <p class="score"></p>
                 <select id="currency-two">
-                    <option value="1">PLN</option>
-                    <option value="2" selected>EUR</option>
+                    <option value="1" selected>PLN</option>
+                    <option value="2">EUR</option>
                     <option value="3">CHF</option>
                     <option value="4">USD</option>
                     <option value="5">GBP</option>
@@ -39,7 +39,7 @@
         </div>
         <p class="actually"></p>
         </div>
-        
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>    
     <script src='script.js'></script>
 </body>
 
