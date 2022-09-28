@@ -12,8 +12,8 @@ const exchangeRate = () => {
     let amount = leftInput.value
     axios.get(`https://api.exchangerate.host/convert?from=${currencyOne}&to=${currencyTwo}&amount=${amount}`).then(res => {
         let result = res.data.result;
-        let rate = Math.floor(res.data.info.rate*100)/100
-    score.textContent = Math.floor(result*100)/100;
+        let rate = (res.data.info.rate).toFixed(2)
+    score.textContent = result.toFixed(2);
     actuallyRate.textContent = amount + ' ' + currencyOne + ' ' + '=' + ' ' + rate + ' ' + currencyTwo
     console.log(res.data.info.rate)
     })
