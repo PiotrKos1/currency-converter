@@ -6,5 +6,6 @@ A simple Currency Converter:
 
 Link demo -> https://piotrkos1.github.io/currency-converter/
 
-![image](https://user-images.githubusercontent.com/107489108/214123052-c5226e5e-9bae-483a-b278-75bb56b15954.png)
+![image](https://user-images.githubusercontent.com/107489108/214123173-c504f743-8932-43f4-b15a-af881b28f5f8.png)
+
 
